@@ -6,7 +6,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 from typing import TypedDict,Sequence,Annotated
 from langgraph.graph.message import add_messages
-from google.api_core.exceptions import ResourceExhausted
 import os
 
 load_dotenv()
